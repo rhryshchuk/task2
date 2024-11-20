@@ -1,0 +1,33 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container {
+    background-color: gray;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    /* Розміщує елементи рівномірно по горизонталі */
+    width: 100%;
+    /* Використовує всю доступну ширину */
+}
+
+.text-container p {
+    text-align: center;
+    /* Текст по центру */
+    flex: 1;
+    /* Кожен <p> займає однакову ширину */
+    padding: 0 10px;
+    /* Додає відступи з боків */
+    border-left: 1px solid #ccc;
+    /* Лінія роздільника */
+}
+
+.text-container p:first-child {
+    border-left: none;
+    /* Вилучає лінію роздільника у першого абзацу */
+}
