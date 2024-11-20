@@ -35,9 +35,11 @@
     flex: 1 1 45%;
     display: flex;
     justify-content: right;
-    margin-bottom: 92px;}
+    margin-bottom: 92px;
+    margin-left: 122px;
+}
 
-button {
+.main-button {
     width: 233px;
     height: 70px;
     margin-top: 77px;

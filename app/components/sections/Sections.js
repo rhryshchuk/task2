@@ -14,11 +14,23 @@ export default function Sections() {
         const focusWallInfo = {
         id: 2,
         title: "Конструкція Focus Wall",
-        one: "1 Алюмініва рама Рами виготовлені з високоякісного легкого алюмінію, є довговічними,а також й естетично привабливі. Легкість рами сприяє простоті монтажу та транспортування, а також дозволяє легко оновлювати текстильні постери, що ідеально підходить для частих маркетингових кампаній.",
-        two: "2 Текстильний постер Виготовлені з екологічно чистих матеріалів, тканинні постери характеризуються високою якістю зображення та відсутністю неприємних запахів, що робить їх ідеальними для внутрішнього використання. Зображення на текстилі виглядає яскраво, природно та реалістично.",
-        three: "3 LED освітлення Новітні технології світлодіодного освітлення забезпечують рівномірне світло, що підкреслює якість зображення і зменшує енергоспоживання.",
+        one: "виготовлені з високоякісного легкого алюмінію, є довговічними,а також й естетично привабливі. Легкість рами сприяє простоті монтажу та транспортування, а також дозволяє легко оновлювати текстильні постери, що ідеально підходить для частих маркетингових кампаній.",
+        two: "Виготовлені з екологічно чистих матеріалів, тканинні постери характеризуються високою якістю зображення та відсутністю неприємних запахів, що робить їх ідеальними для внутрішнього використання. Зображення на текстилі виглядає яскраво, природно та реалістично.",
+        three: "Новітні технології світлодіодного освітлення забезпечують рівномірне світло, що підкреслює якість зображення і зменшує енергоспоживання.",
         imgSrc: "/images/focusWallInfo.png",
-        imgAlt: "Focus wall info image"
+        imgAlt: "Focus wall info image",
+        greenText: {
+                first: "1",
+                second: "2",
+                third: "3"
+                
+            },
+        whiteText: {
+                first: "Алюмініва рама Рами",
+                second: "Текстильний постер",
+                third: "LED освітлення "
+        }
+        
     }
         const cubes = {
         id: 3,
@@ -29,13 +41,23 @@ export default function Sections() {
     }
 
         const cubesInfo = {
-        id: 2,
+        id: 4,
         title: "Конструкція Куба",
-        one: "1 Наповнення Брендовані м’які куби виготовленні з щільного поролоному. Що є безпечним для дітей та дозволяє створювати велике рекламне поле за допомогу виставлення кубів один на одного.",
-        two: "2 Зовнішні чохли Виготовленні з тканини Оксфорд, котра відштовхує воду та не вимагає особливого догляду.",
-        three: "3 Брендування",
+        one: "Брендовані м’які куби виготовленні з щільного поролоному. Що є безпечним для дітей та дозволяє створювати велике рекламне поле за допомогу виставлення кубів один на одного.",
+        two: "Виготовленні з тканини Оксфорд, котра відштовхує воду та не вимагає особливого догляду.",
+        three: "На рекламному кубі можна розміщувати будь-яке повноколірне зображення на усіх 6-ти гранях, що надає максимальної видимості та ефективності реклами для вашої компанії чи продукту.",
         imgSrc: "/images/cubesInfo.png",
-        imgAlt: "cubes image info"
+        imgAlt: "cubes image info",
+        greenText: {
+                first: "1",
+                second: "2",
+                third: "3" 
+        },
+        whiteText: {
+                first: "Наповнення",
+                second: "Зовнішні чохли",
+                third: "Брендування"
+        }
     }
 
         const winder = {
@@ -46,11 +68,11 @@ export default function Sections() {
         imgAlt: "winder image"
     }
 
-        const winderInfo = {
-        id: 6,
-        imgSrc: "/images/winderInfo.png",
-        imgAlt: "winder info image"
-    }
+    //     const winderInfo = {
+    //     id: 6,
+    //     imgSrc: "/images/winderInfo.png",
+    //     imgAlt: "winder info image"
+    // }
     
 
   return (
@@ -70,6 +92,8 @@ export default function Sections() {
               three={focusWallInfo.three}
               img={focusWallInfo.imgSrc}
               alt={focusWallInfo.imgAlt}
+              greenText={focusWallInfo.greenText}
+              whiteText={focusWallInfo.whiteText}
           />
           <MainSection
               id={cubes.id}
@@ -86,6 +110,8 @@ export default function Sections() {
               three={cubesInfo.three}
               img={cubesInfo.imgSrc}
               alt={cubesInfo.imgAlt}
+              greenText={cubesInfo.greenText}
+              whiteText={cubesInfo.whiteText}
           />
           <MainSection
               id={winder.id}
@@ -94,13 +120,15 @@ export default function Sections() {
               img={winder.imgSrc}
               alt={winder.imgAlt}
           />
-          <InfoSection
+          {/* <InfoSection
               id={winderInfo.id}
               title={winderInfo.title}
               content={winderInfo.content}
               img={winder.imgSrc}
               alt={winder.imgAlt}
-          />
+              greenText={{ first: "", second: "", third: "" }}
+              whiteText={{ first: "", second: "", third: "" }}
+          /> */}
     </div>
   )
 }

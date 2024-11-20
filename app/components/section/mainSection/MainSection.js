@@ -8,7 +8,7 @@ export default function MainSection({id, title, content ,onClick  ,img, alt}) {
       <div className="text-container">
         <h1 className='title'>{title}</h1>
         <p className='text'>{content}</p>
-        <button onClick={onClick}>Замовити</button>
+        <button className='main-button' onClick={onClick}>Замовити</button>
       </div>
       <div className="image-container">
         <Image src={img} alt={alt} width={642} height={491} />
