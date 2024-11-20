@@ -1,20 +1,25 @@
-nav {
+.nav {
     text-align: center;
 }
 
-ul {
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block;
     margin-bottom: 92px;
     margin-top: 103px;
+    margin-left: 180px;
 }
 
-li {
+.li {
     display: inline;
     margin-right: 102px;
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
+}
+
+a:hover {
+    color: #BBE73E;
 }

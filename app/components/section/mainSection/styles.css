@@ -31,6 +31,8 @@
     font-size: 64px;
     line-height: 75px;
     color: #BBE73E;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
 
 .image-container {
