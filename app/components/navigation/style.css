@@ -1,0 +1,20 @@
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 92px;
+    margin-top: 103px;
+}
+
+li {
+    display: inline;
+    margin-right: 102px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+}

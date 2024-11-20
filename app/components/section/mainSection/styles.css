@@ -28,6 +28,8 @@
     margin-bottom: 53px;
     margin-left: 173px;
     font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
     color: #BBE73E;
 }
 
@@ -47,4 +49,10 @@
     background-color: black;
     border-radius: 15px;
     border: 2px solid #BBE73E;
+}
+
+.white {
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 900;
 }
