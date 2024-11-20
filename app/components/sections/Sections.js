@@ -71,13 +71,6 @@ export default function Sections() {
         white: "Віндери"
     }
 
-    //     const winderInfo = {
-    //     id: 6,
-    //     imgSrc: "/images/winderInfo.png",
-    //     imgAlt: "winder info image"
-    // }
-    
-
   return (
       <div>
           <MainSection
@@ -126,15 +119,6 @@ export default function Sections() {
               alt={winder.imgAlt}
               white={winder.white}
           />
-          {/* <InfoSection
-              id={winderInfo.id}
-              title={winderInfo.title}
-              content={winderInfo.content}
-              img={winder.imgSrc}
-              alt={winder.imgAlt}
-              greenText={{ first: "", second: "", third: "" }}
-              whiteText={{ first: "", second: "", third: "" }}
-          /> */}
     </div>
   )
 }

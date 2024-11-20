@@ -1,0 +1,125 @@
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color:rgb(83, 83, 83);;
+}
+
+.green {
+    color: #BBE73E;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    width: 619px;
+    height: 150px;
+    margin-top: 195px;
+    margin-left: 49px;
+}
+
+.info-text {
+    width: 622px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 284px;
+    margin-left: 47px;
+}
+
+.form-container {
+    border: 2px solid #BBE73E;
+    border-radius: 30px;
+    width: 490px;
+    height: 530px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+input {
+    background-color: #D9D9D999;
+    border-radius: 10px;
+    height: 54px;
+    margin-left: 30px;
+}
+input#name {
+    width: 430px;
+}
+input#phone {
+    width: 286px;
+}
+
+textarea {
+    width: 430px;
+    height: 150px;
+    background-color: #D9D9D999;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #fff;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+.contact-btn {
+        width: 181px;
+        height: 55px;
+        margin-top: 30px;
+        margin-left: 30px;
+        background-color: transparent;
+        border-radius: 12px;
+        border: 2px solid #BBE73E;
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 23px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footerLeft {
+    flex: 1;
+}
+
+.footerCenter {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.footerRight {
+    flex: 1;
+    text-align: right;
+    margin-right: 149px;
+}
+
+.links {
+    display: flex;
+    gap: 60px;
+    margin-left: 575px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 63px;
+    margin-bottom: 33px;
+}
+

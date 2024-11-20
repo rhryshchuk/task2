@@ -10,7 +10,7 @@ export default function Navigation() {
         <li className='li'><Link href="#1">01.Фокусволи</Link></li>
         <li className='li'><Link href="#3">02.Куби</Link></li>
         <li className='li'><Link href="#5">03.Віндери</Link></li>
-        <li className='li'><Link href="#section4">04.Підтримка</Link></li>
+        <li className='li'><Link href="#6">04.Підтримка</Link></li>
       </ul>
     </nav>
     </div>

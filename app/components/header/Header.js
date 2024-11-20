@@ -20,7 +20,7 @@ export default function Header() {
                     <li className='header-li'><Link href="#1">Focuswall</Link></li>
                     <li className='header-li'><Link href="#3">Cube</Link></li>
                     <li className='header-li'><Link href="#5">Flag</Link></li>
-                    <li className='header-li'><Link href="#section4">Contact</Link></li>
+                    <li className='header-li'><Link href="#6">Contact</Link></li>
                 </ul>
               </nav>
           </div>

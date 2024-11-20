@@ -2,6 +2,8 @@
 import Sections from "../app/components/sections/Sections"
 import Navigation from "./components/navigation/Navigation"
 import Header from "./components/header/Header"
+import Winder from "./components/winder/Winder"
+import Footer from "./components/footer/Footer"
 
 
 export default function Home() {
@@ -9,7 +11,9 @@ export default function Home() {
     <div>
       <Header/>
       <Navigation/>
-      <Sections/>
+      <Sections />
+      <Winder />
+      <Footer/>
     </div>
   );
 }
